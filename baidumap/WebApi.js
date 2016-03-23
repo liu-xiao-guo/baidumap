@@ -1,6 +1,3 @@
-Qt.include("sha1.js")
-
-var BASE_URI = "http://api.dianping.com/v1/business/find_businesses?";
 var staticMap = "http://api.map.baidu.com/staticimage?center={0},{1}&width=400&height=300&zoom=14&markers={0},{1}&markerStyles=l,A";
 var convertUrl = "http://api.map.baidu.com/geoconv/v1/?coords={0},{1}&from=1&to=5&ak=http://api.map.baidu.com/geoconv/v1/?coords=116.44773,39.971516&from=1&to=5&ak=DbQHNP1CTOovfpnjmsXcb4gG"
 

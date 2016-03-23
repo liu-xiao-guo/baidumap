@@ -15,10 +15,6 @@ MainView {
     property string longitude: "116.3883"
     property string latitude: "39.9289"
 
-    property string kaide_latitude: "39.971375"
-    property string kaide_longitude: "116.44785"
-    property var converted
-
     width: units.gu(60)
     height: units.gu(85)
 
@@ -79,10 +75,6 @@ MainView {
                     fontSize: "large"
                 }
             }
-        }
-
-        Component.onCompleted: {
-//            API.convertCoordinates(kaide_longitude, kaide_latitude, gotConverted)
         }
     }
 }
