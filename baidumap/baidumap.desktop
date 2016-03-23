@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=baidumap
+Exec=baidumap
+Icon=baidumap/baidumap.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
